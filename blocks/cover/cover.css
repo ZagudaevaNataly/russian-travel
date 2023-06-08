@@ -1,22 +1,16 @@
 .cover {
+  background-position: center;
+  background-size: cover;
+  margin-top: 92px;
+  margin-bottom: 92px;
+  margin-left: 48px;
+  margin-right: 48px;
   position: relative;
-  margin: 0 auto;
-  padding: 0;
-  width: calc(100% - 2*48px);
-  display: flex;
-  flex-direction: column;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
     margin-left: 0;
     margin-right: 0;
-  }
-}
-
-@media screen and (max-width: 690px) {
-  .cover {
-    margin-top: 65px;
-    margin-bottom: 65px;
   }
 }

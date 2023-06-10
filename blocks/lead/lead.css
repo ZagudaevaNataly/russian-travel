@@ -6,24 +6,18 @@
   align-items: center;
   padding-left: 48px;
   padding-right: 48px;
-}
-
-@media screen and (max-width: 1024px) {
-  .lead {
-    width: 928px;
-    padding-bottom: 0;
-  }
+  padding-bottom: 92px;
 }
 
 @media screen and (max-width: 768px) {
   .lead {
-    width: 100%;
     padding-left: 0;
     padding-right: 0;
+    padding-bottom: 88px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 425px) {
   .lead {
     padding-bottom: 64px;
   }

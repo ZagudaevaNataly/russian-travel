@@ -1,9 +1,9 @@
 .places__url-heading {
+  letter-spacing: 2px;
+  font-size: 12px;
+  margin-bottom: 12px;
+  line-height: 1;
   text-transform: uppercase;
   width: fit-content;
-  margin-bottom: 12px;
-  font-size: 12px;
-  line-height: 12px;
-  letter-spacing: 2px;
   color: #AAAAAA;
 }

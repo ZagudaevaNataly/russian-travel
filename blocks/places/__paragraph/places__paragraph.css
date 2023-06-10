@@ -2,14 +2,22 @@
   margin: 0;
   font-size: 18px;
   line-height: 163%;
+  text-align:justify;
 }
 
 .places__paragraph:not(:last-child) {
-  margin-bottom: 24px;
+  margin-bottom: 26px;
+  text-align:justify;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .places__paragraph {
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .places__paragraph {
+    padding: 0 16px;
   }
 }

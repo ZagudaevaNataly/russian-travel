@@ -1,13 +1,14 @@
 .places__link {
-  margin: 0;
-  padding: 0;
-  font-family: "Inter", "Arial ", sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  max-width: fit-content;
+  align-self: self-end;
+  color: inherit;
+  line-height: 1.22;
   font-size: 18px;
-  line-height: 122%;
-  color: #fff;
-  transition: 0.3s ease-in;
+  position: relative;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  justify-self: start;
+  transition: opacity 0.2s linear;
 }
 
 .places__link:hover {

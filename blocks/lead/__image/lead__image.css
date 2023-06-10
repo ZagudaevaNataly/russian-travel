@@ -1,18 +1,11 @@
 .lead__image {
-  max-width: 100%;
-  height: auto;
+  max-width: 984px;
   }
 
 
-  @media screen and (max-width: 1024px) {
-    .lead__img {
-      width: 70%;
-    }
-  }
-
-  @media (max-width: 767px) {
+  @media screen and (max-width: 1091px) {
     .lead__image {
-      padding-top: 40px;
-  
+      width: 100%;
     }
   }
+

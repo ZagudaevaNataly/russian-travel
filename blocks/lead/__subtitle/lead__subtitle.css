@@ -30,6 +30,7 @@
     max-width: 288px;
     font-size: 16px;
     line-height: 125%;
-    margin-bottom: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

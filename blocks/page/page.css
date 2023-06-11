@@ -1,9 +1,10 @@
 .page {
+  max-width: 1280px;
   margin: 0 auto;
   font-family: "Inter", "Arial ", sans-serif;
   font-weight: normal;
   box-sizing: border-box;
-  color: #FFF;
-  background-color: #2A2C2F;
   max-width: 1280px;
+  background-color: #2A2C2F;
+  color: #FFF;
 }

@@ -2,12 +2,10 @@
   margin: 0;
   font-size: 18px;
   line-height: 163%;
-  text-align:justify;
 }
 
 .places__paragraph:not(:last-child) {
   margin-bottom: 26px;
-  text-align:justify;
 }
 
 @media screen and (max-width: 900px) {
